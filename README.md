@@ -17,9 +17,9 @@ The principle of RSA is to find two numbers (e and d), such that
 
 ![equation](https://latex.codecogs.com/gif.latex?ed%20%3D%20k%5Cphi%28n%29%20&plus;%201)
 
-Or alternatively,
-
 ![equation](https://latex.codecogs.com/gif.latex?ed%20%3D%201%5C%3B%28mod%5C%3B%5Cphi%28n%29%29)
+
+![equation](https://latex.codecogs.com/gif.latex?m%5E%7Bed%7D%5Cequiv%20m%5C%3B%28mod%5C%3Bn%29)
 
 e must be a coprime of ![equation](https://latex.codecogs.com/gif.latex?%5Cphi%28n%29) and is chosen somewhat arbitrarily.
 
