@@ -8,6 +8,7 @@ Encryption and Decryption in RSA exploits the Euler's generalization of Fermat's
 ![equation](https://latex.codecogs.com/gif.latex?m%5E%7Bk%5Cphi%28n%29%20&plus;%201%7D%20%5Cequiv%20m%20%28mod%5C%3Bn%29)
 
 Where totient function describes the number of values less than n which are relatively prime to n.
+
 In RSA, n is always the product of two primes (p and q) therefore
 
 ![equation](https://latex.codecogs.com/gif.latex?%5Cphi%28n%29%20%3D%20%28p-1%29%28q-1%29)
@@ -20,8 +21,9 @@ Or alternatively,
 
 ![equation](https://latex.codecogs.com/gif.latex?ed%20%5Cequiv%201%20%28mod%5C%3Bn%29)
 
-e must be a coprime of phi(n) and is chosen somewhat arbitrarily. Nowadays, it's generally 65537.
-d is the modulo inverse of e under phi(n). (and vice versa)
+e must be a coprime of ![equation](https://latex.codecogs.com/gif.latex?%5Cphi%28n%29) and is chosen somewhat arbitrarily.
+
+d is the modulo inverse of e under ![equation](https://latex.codecogs.com/gif.latex?%5Cphi%28n%29). (and vice versa)
 
 (e, n) together forms the public key. To encrypt a message m:
 
